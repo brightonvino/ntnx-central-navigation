@@ -118,9 +118,12 @@
       ]
     },
     {
-      "type": "PAGE",
+      "type": "PARENT",
       "title": "Administration",
-      "sections": ["Users#", "Roles", "Projects (DEP)", "Cost Policies", null, "Life Cycle Management"]
+      "nav": [
+        {"type": "PAGE", "title": "User and Roles", "sections": ["Users#", "Roles", "Projects (DEP)", "Cost Policies"]},
+        {"type": "PAGE", "title": "Life Cycle Management", "sections": ["Inventory", "Software Updates"]}
+      ]
     },
     {
       "type": "SEPARATOR"
