@@ -1,0 +1,69 @@
+[
+    {
+      "type": "PAGE",
+      "title": "Dashboard"
+    },
+    {
+      "type": "SEPARATOR"
+    },
+    {
+      "type": "PARENT",
+      "title": "Hardware",
+      "nav": [
+        {
+          "type": "PAGE", "title": "Cluster",
+          "sections": ["Summary", null,"Cluster Profile", null, "Alerts", "Events", "Metrics"]
+        },
+        {
+          "type": "PAGE", "title": "Hosts",
+          "sections": ["Summary", "List#", null,"Alerts", "Events", "Metrics"]
+        },
+        {
+          "type": "PAGE", "title": "Disks",
+          "sections": ["Summary", "List#", null,"Alerts", "Events", "Metrics"]
+        },
+        {
+          "type": "PAGE", "title": "Switches",
+          "sections": ["Summary", "List#", null,"Alerts", "Events", "Metrics"]
+        },
+        {
+          "type": "PAGE", "title": "GPUs",
+          "sections": ["List#"]
+        }
+      ]
+    },
+    {
+      "type": "PARENT",
+      "title": "Operations",
+      "nav": [
+        {
+            "type": "PAGE", "title": "Activity", "sections": ["Alert#", "Events", "Audits", "Tasks"]
+        },
+        {
+          "type": "PAGE", "title": "Analysis"
+        },
+        {
+          "type": "PAGE", "title": "Reports", "sections": ["List#"]
+        }
+      ]
+    },
+    {
+      "type": "PARENT",
+      "title": "Administration",
+      "nav": [
+        {"type": "PAGE", "title": "User and Roles", "sections": ["Users#", "Roles"]},
+        {"type": "PAGE", "title": "Life Cycle Management", "sections": ["Inventory", "Software Updates"]}
+      ]
+    },
+    {
+      "type": "SEPARATOR"
+    },
+    {
+      "type": "PAGE",
+      "title": "Settings"
+    },
+    {
+      "type": "PAGE",
+      "title": "Help"
+    }
+  ]
