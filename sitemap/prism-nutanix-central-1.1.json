@@ -42,7 +42,7 @@
   },
   {
     "type": "PAGE",
-    "title": "Prism Dashboard"
+    "title": "Dashboard"
   },
   {
     "type": "PARENT",
@@ -109,6 +109,23 @@
           "Public Images",
           null,
           "Image Placement Policies"
+        ]
+      },
+      {
+        "type": "SEPARATOR"
+      },
+      {
+        "type": "PAGE",
+        "title": "Categories",
+        "sections": [
+          "List#"
+        ]
+      },
+      {
+        "type": "PAGE",
+        "title": "Availability Zones",
+        "sections": [
+          "List#"
         ]
       }
     ]
@@ -233,26 +250,6 @@
     ]
   },
   {
-    "type": "PARENT",
-    "title": "Management",
-    "nav": [
-      {
-        "type": "PAGE",
-        "title": "Categories",
-        "sections": [
-          "List#"
-        ]
-      },
-      {
-        "type": "PAGE",
-        "title": "Availability Zones",
-        "sections": [
-          "List#"
-        ]
-      }
-    ]
-  },
-  {
     "type": "SEPARATOR"
   },
   {
@@ -282,9 +279,6 @@
         "title": "Licensing"
       }
     ]
-  },
-  {
-    "type": "SEPARATOR"
   },
   {
     "type": "PAGE",

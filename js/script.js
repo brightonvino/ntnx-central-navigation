@@ -11,7 +11,7 @@ const E_PRODUCT = {
   // PRISM_CENTRAL: { "title": "Prism Central (Current)", "file": "prism-central" },
   PC_NC_10: { "title": "Prism Nutanix Central 1.0", "file": "prism-nutanix-central-1.0" },
   PC_NC_11: { "title": "Prism Nutanix Central 1.1", "file": "prism-nutanix-central-1.1" },
-  PC_NC_WIP: { "title": "Prism Nutanix Central WIP", "file": "prism-nutanix-central-wip" },
+  PC_NC_12: { "title": "Prism Nutanix Central 1.2", "file": "prism-nutanix-central-1.2" },
   PRISM_CENTRAL: { "title": "Prism Central", "file": "prism-central-reorg" },
   PRISM_ELEMENT: { "title": "Prism Element", "file": "prism-element" },
   // SEP_2: { "title": "---------------------------------------------------------------------", "file": null },

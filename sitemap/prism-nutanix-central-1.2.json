@@ -253,29 +253,32 @@
     "type": "SEPARATOR"
   },
   {
-    "type": "PAGE",
-    "title": "IAM",
-    "sections": [
-      "Users#",
-      "Roles",
-      "Projects (DEP)",
-      "Cost Policies"
+    "type": "PARENT",
+    "title": "Administration",
+    "nav": [
+      {
+        "type": "PAGE",
+        "title": "IAM",
+        "sections": [
+          "Users#",
+          "Roles",
+          "Projects (DEP)",
+          "Cost Policies"
+        ]
+      },
+      {
+        "type": "PAGE",
+        "title": "Life Cycle Manager",
+        "sections": [
+          "Inventory",
+          "Software Updates"
+        ]
+      },
+      {
+        "type": "PAGE",
+        "title": "Licensing"
+      }
     ]
-  },
-  {
-    "type": "PAGE",
-    "title": "Life Cycle Manager",
-    "sections": [
-      "Inventory",
-      "Software Updates"
-    ]
-  },
-  {
-    "type": "PAGE",
-    "title": "Licensing"
-  },
-  {
-    "type": "SEPARATOR"
   },
   {
     "type": "PAGE",
