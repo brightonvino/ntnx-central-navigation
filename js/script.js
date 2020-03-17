@@ -9,7 +9,9 @@ const E_PRODUCT = {
   // XI_LEAP_IAAS: { "title": "Xi Leap +", "file": "xi-leap-iaas" },
   // SEP_1: { "title": "---------------------------------------------------------------------", "file": null },
   // PRISM_CENTRAL: { "title": "Prism Central (Current)", "file": "prism-central" },
-  PC_NC: { "title": "Prism Nutanix Central", "file": "prism-nutanix-central" },
+  PC_NC_10: { "title": "Prism Nutanix Central 1.0", "file": "prism-nutanix-central-1.0" },
+  PC_NC_11: { "title": "Prism Nutanix Central 1.1", "file": "prism-nutanix-central-1.1" },
+  PC_NC_WIP: { "title": "Prism Nutanix Central WIP", "file": "prism-nutanix-central-wip" },
   PRISM_CENTRAL: { "title": "Prism Central", "file": "prism-central-reorg" },
   PRISM_ELEMENT: { "title": "Prism Element", "file": "prism-element" },
   // SEP_2: { "title": "---------------------------------------------------------------------", "file": null },
@@ -23,7 +25,7 @@ const E_PRODUCT = {
 let state = E_STATE.FLYOUT;
 
 $(function () {
-  product = E_PRODUCT.PC_NC;
+  product = E_PRODUCT.PC_NC_10;
   setProduct(product);
 
   $('.switcher').click(function () {
@@ -67,7 +69,7 @@ function setProduct(e_product) {
   $('#navigation').html('');
   $('#aside-content').addClass("hidden");
   $("#sidebar").find(".name").each(function () {
-    $(this).text('Dashboard');
+    $(this).text('Home Page');
   });
 
   let filename = "./sitemap/" + e_product.file + ".json";
@@ -147,6 +149,10 @@ function treeExpand(parent, tree, exposed) {
     if (element.type === "SEPARATOR") {
       parent.append('<hr></hr>');
     }
+    else if (element.type === "TITLE") {
+      sections = element.sections ? element.sections : null;
+      parent.append('<div class="nav-item title" data-sections="' + sections + '"hcd><a>' + element.title + '</a></div>');
+    }
     else if (element.type === "HEADING") {
       parent.append('<div class="heading" hcd>' + element.title + '</div><hr></hr>');
     }
@@ -168,6 +174,10 @@ function treeFlyout(parent, tree) {
   tree.map(element => {
     if (element.type === "SEPARATOR") {
       parent.append('<hr></hr>');
+    }
+    else if (element.type === "TITLE") {
+      sections = element.sections ? element.sections : null;
+      parent.append('<div class="nav-item title" data-sections="' + sections + '"hcd><a>' + element.title + '</a></div>');
     }
     else if (element.type === "HEADING") {
       parent.append('<div class="heading" hcd>' + element.title + '</div><hr></hr>');

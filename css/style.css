@@ -805,11 +805,20 @@ aside li.selected:hover {
   padding-right: 20px;
   color: #9AA5B5;
   text-decoration: none;
-  font-weight: 600;
   height: 30px;
   width: 240px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+#navigation .nav-item.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#navigation .nav-item.title a {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 #navigation .nav-item img {
