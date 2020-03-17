@@ -110,6 +110,23 @@
           null,
           "Image Placement Policies"
         ]
+      },
+      {
+        "type": "SEPARATOR"
+      },
+      {
+        "type": "PAGE",
+        "title": "Categories",
+        "sections": [
+          "List#"
+        ]
+      },
+      {
+        "type": "PAGE",
+        "title": "Availability Zones",
+        "sections": [
+          "List#"
+        ]
       }
     ]
   },
@@ -228,26 +245,6 @@
           "Plays",
           null,
           "Actions Gallery"
-        ]
-      }
-    ]
-  },
-  {
-    "type": "PARENT",
-    "title": "Management",
-    "nav": [
-      {
-        "type": "PAGE",
-        "title": "Categories",
-        "sections": [
-          "List#"
-        ]
-      },
-      {
-        "type": "PAGE",
-        "title": "Availability Zones",
-        "sections": [
-          "List#"
         ]
       }
     ]
