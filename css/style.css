@@ -589,6 +589,7 @@ article {
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
   margin-top: 60px;
+  margin-left: 480px;
 }
 
 article.expanded {

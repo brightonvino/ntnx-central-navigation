@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://john00123.github.io/ntnx-tile/font/font.css"
+      type="text/css"
+      charset="utf-8"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Navigation Prototypes</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://john00123.github.io/ntnx-tile/font/font.css" type="text/css" charset="utf-8" />
-  <link rel="stylesheet" href="css/style.css">
-  <title>Navigation Prototypes</title>
-</head>
-
-<body>
-
-  <header>
-    <div hcd fw>
-      <div class='hamburger'>
-        <div class='patty'></div>
+  <body>
+    <header>
+      <div hcd fw>
+        <div class="hamburger">
+          <div class="patty"></div>
+        </div>
+        <div class="switcher" hc>
+          <h3 hc id="page-title" class="page-title">Prism Central</h3>
+          <div hc class="arrow"><img src="./images/arrow.svg" /></div>
+        </div>
+        <div class="controls main-back" hcd>
+          <div class="icon bell"></div>
+          <div class="icon task"></div>
+          <h6>Joel Daniels</h6>
+          <img src="./images/arrow.svg" />
+        </div>
       </div>
-      <div class='switcher' hc>
-        <h3 hc id="page-title" class='page-title'>Prism Central</h3>
-        <div hc class='arrow'><img src="./images/arrow.svg" /></div>
-      </div>
-      <div class='controls main-back' hcd>
-        <div class="icon bell"></div>
-        <div class="icon task"></div>
-        <h6>Joel Daniels</h6>
-        <img src="./images/arrow.svg" />
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <div id='products' class='products' vss></div>
-  <nav id="navigation" vss></nav>
+    <div id="products" class="products" vss></div>
+    <nav id="navigation" class="nav-expanded" vss></nav>
 
-  <article>
-    <aside id="sidebar" class="no-sections">
-      <h1 class="name">Entity Name</h1>
-      <div id="sidebar-content">
-        <!-- <h4>42 Total <span class="name">Entity Name</span></h4> -->
-        <div class='separator'></div>
-        <ul id="sidebar-sections">
-        </ul>
-      </div>
-    </aside>
-  </article>
+    <article>
+      <aside id="sidebar" class="no-sections">
+        <h1 class="name">Dashboard</h1>
+        <div id="sidebar-content">
+          <!-- <h4>10 Total <span class="name">Entity Name</span></h4> -->
+          <div class="separator"></div>
+          <ul id="sidebar-sections"></ul>
+        </div>
+      </aside>
+    </article>
 
-  <footer hc>
-    <div class='exposed' hc>Exposed</div>
-    <div class='expand' hc>Expand</div>
-    <div class='flyout' hc>Fly Out</div>
-  </footer>
+    <footer hc>
+      <div class="exposed" hc>Exposed</div>
+      <div class="expand" hc>Expand</div>
+      <div class="flyout" hc>Fly Out</div>
+    </footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="js/script.js" charset="utf-8"></script>
-</body>
-
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
 </html>

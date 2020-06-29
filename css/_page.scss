@@ -6,6 +6,7 @@ article {
   @include transition(transform);
   transition-duration: 300ms;
   margin-top: 60px;
+  margin-left: 480px;
 
   &.expanded {
     transform: translate(240px, 0px);

@@ -1,0 +1,178 @@
+[
+    {
+      "type": "PAGE",
+      "title": "Dashboard"
+    },
+    {
+      "type": "SEPARATOR"
+    },
+    {
+      "type": "PARENT",
+      "title": "Virtual Infrastructure",
+      "nav": [
+        {
+          "type": "PAGE", "title": "VMs",
+          "sections": ["Summary", "List#", null, "Affinity Policies *", "Anti-Affinity Policies *", "NGT Policies", null, "Alerts", "Events", "Tasks", null, "Metrics"]
+        },
+        {
+          "type": "PAGE", "title": "Templates"
+        },
+        {
+          "type": "PAGE", "title": "OVAs"
+        },
+        {
+          "type": "PAGE", "title": "Images",
+          "sections": ["Private Images", "Public Images", null, "Image Placement Policies", "Bandwidth Throttling Policies"]
+        }
+      ]
+    },
+    {
+      "type": "PARENT",
+      "title": "Storage",
+      "nav": [
+        {
+          "type": "PAGE", "title": "Storage Containers",
+          "sections": ["Summary", "List#", null, "Storage Policies", null,"Alerts", "Events", "Tasks", null, "Metrics"]
+        },
+        {
+          "type": "PAGE", "title": "Volumes",
+          "sections": ["Summary", "List#", null, "Alerts", "Events", "Tasks", null, "Metrics"]
+        }
+      ]
+    },
+    {
+      "type": "PARENT",
+      "title": "Networking",
+      "nav": [
+        {
+          "type": "PAGE", "title": "VPCs and Subnets",
+          "sections": ["Summary", "Subnets#", "VPCs", "Floating IPs", null, "Alerts", "Events", "Tasks", null, "Metrics"]
+        },
+        {
+          "type": "PAGE", "title": "VPNs",
+          "sections": ["Summary", "VPN Gateways", "VPN Connections",null, "Alerts", "Events", "Tasks", null, "Metrics"]
+        }
+      ]
+    },
+    {
+      "type": "PAGE",
+      "title": "Security",
+      "sections": ["Summary", "Security Planning", "Security Policies#", null, "Service Chains", "Service Groups", "Address Groups"]
+    },
+    {
+      "type": "PAGE",
+      "title": "Data Protection & Recovery",
+      "sections": ["Summary#", "Protection Policies", "Recovery Plans", "Recovery Points", null, "Constitency Groups", "Container Maps",  "Witness"]
+    },
+    {
+      "type": "PARENT",
+      "title": "Other Services",
+      "nav": [
+        {
+          "type": "PAGE", "title": "CALM"
+        },
+        {
+          "type": "PAGE", "title": "Foundations"
+        },
+        {
+          "type": "PAGE", "title": "Files"
+        },
+        {
+          "type": "PAGE", "title": "Karbon"
+        },
+        {
+          "type": "PAGE", "title": "Objects"
+        }
+      ]
+    },
+    {
+      "type": "SEPARATOR"
+    },
+    {
+      "type": "PARENT",
+      "title": "Hardware",
+      "nav": [
+        {
+          "type": "PAGE", "title": "Clusters",
+          "sections": ["Summary", "List#", null,"Cluster Profile", null, "Alerts", "Events", "Metrics"]
+        },
+        {
+          "type": "PAGE", "title": "Hosts",
+          "sections": ["Summary", "List#", null,"Alerts", "Events", "Metrics"]
+        },
+        {
+          "type": "PAGE", "title": "Disks",
+          "sections": ["Summary", "List#", null,"Alerts", "Events", "Metrics"]
+        },
+        {
+          "type": "PAGE", "title": "GPUs",
+          "sections": ["List#"]
+        }
+      ]
+    },
+    {
+      "type": "PARENT",
+      "title": "Operations",
+      "nav": [
+        
+        {
+          "type": "PAGE", "title": "Analysis"
+        },
+        {
+          "type": "PAGE", "title": "App Discovery"
+        },
+        {
+          "type": "PAGE", "title": "Integrations", "sections": ["Summary#", "Blue Medora", "Epoch Data Collectors"]
+        },
+        {
+          "type": "PAGE", "title": "Planning", "sections": ["Scenarios#", "Capacity Planning"]
+        },
+        {
+          "type": "PAGE", "title": "Reports", "sections": ["List#"]
+        },
+        {
+          "type": "PAGE", "title": "Playbooks", "sections": ["List#", "Plays", null, "Actions Gallery"]
+        },
+        {
+          "type": "PAGE", "title": "Operation Policies", "sections": ["Anomaly Exclusion#", "Efficiency Exclusion"]
+        },
+        {
+          "type": "PAGE", "title": "Visual Monitoring" 
+        }
+      ]
+    },
+    {
+      "type": "PARENT",
+      "title": "Management",
+      "nav": [
+        {
+          "type": "PAGE", "title": "Activity", "sections": ["Alert#", "Events", "Audits", "Tasks"]
+        },
+        {
+          "type": "PAGE", "title": "Categories", "sections": ["List#"]
+        },
+        {
+          "type": "PAGE", "title": "Availability Zones", "sections": ["List#"]
+        }
+      ]
+    },
+    {
+      "type": "PARENT",
+      "title": "Administration",
+      "nav": [
+        {"type": "PAGE", "title": "User and Roles", "sections": ["Users#", "Roles", "Projects (DEP)"]},
+        {"type": "PAGE", "title": "Life Cycle Management", "sections": ["Inventory", "Software Updates"]}
+      ]
+    },
+    {
+      "type": "SEPARATOR"
+    },
+    {
+      "type": "PAGE",
+      "title": "Settings"
+    },
+    {
+      "type": "PAGE",
+      "title": "Help"
+    }
+  ]

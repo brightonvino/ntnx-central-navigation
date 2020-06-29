@@ -5,38 +5,26 @@ const E_STATE = {
 }
 
 const E_PRODUCT = {
-  // XI_LEAP: { "title": "Xi Leap", "file": "xi-leap" },
-  // XI_LEAP_IAAS: { "title": "Xi Leap +", "file": "xi-leap-iaas" },
-  // SEP_1: { "title": "---------------------------------------------------------------------", "file": null },
-  // PRISM_CENTRAL: { "title": "Prism Central (Current)", "file": "prism-central" },
-  PC_NC_10: { "title": "Exploration 1.0", "file": "prism-nutanix-central-1.0" },
-  PC_NC_11: { "title": "Exploration 1.1", "file": "prism-nutanix-central-1.1" },
-  PC_NC_12: { "title": "Exploration 1.2", "file": "prism-nutanix-central-1.2" },
-  PRISM_CENTRAL: { "title": "Prism Central", "file": "prism-central-reorg" },
-  // PRISM_ELEMENT: { "title": "Prism Element", "file": "prism-element" },
-  // SEP_2: { "title": "---------------------------------------------------------------------", "file": null },
-  // IASS: { "title": "IaaS", "file": "iaas" },
-  // LEAP: { "title": "Leap", "file": "leap" },
-  // FLOW: { "title": "Flow", "file": "flow" },
-  // SUPPORT_PORTAL: { "title": "Support Portal", "file": "support-portal" },
-  // XI_LEAP_FLAT: { "title": "Xi Leap (Nav Style: Flat)", "file": "xi-leap-flat" },
+  PRISM_CENTRAL_OPT_A: { "title": "Prism Opt-A", "file": "prism-central-opt-a" },
+  PRISM_CENTRAL_OPT_B: { "title": "Prism Opt-B", "file": "prism-central-opt-b" }
 }
+
 
 let state = E_STATE.FLYOUT;
 
 $(function () {
-  product = E_PRODUCT.PC_NC_10;
+  product = E_PRODUCT.PRISM_CENTRAL_OPT_A;
   setProduct(product);
 
   $('.switcher').click(function () {
     $('.products').toggleClass('prod-expanded')
   })
 
-  $('.hamburger').click(function () {
-    $('article').toggleClass('expanded');
-    $('nav').toggleClass('nav-expanded');
-    $(this).toggleClass('cross');
-  })
+  // $('.hamburger').click(function () {
+  //   $('article').toggleClass('expanded');
+  //   $('nav').toggleClass('nav-expanded');
+  //   $(this).toggleClass('cross');
+  // })
 
   $('footer .expand').click(function () {
     state = E_STATE.EXPAND;

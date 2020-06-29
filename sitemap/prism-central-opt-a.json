@@ -12,31 +12,35 @@
       "nav": [
         {
           "type": "PAGE", "title": "VMs",
-          "sections": ["Summary", "List#", "Templates", "OVAs", "Recycling Bin", null, "Affinity Policies", "Anti-Affinity Policies", "QoS Policies", "NGT Policies", null, "Alerts", "Events", "Metrics"]
+          "sections": ["Summary", "List#", "Templates", "OVAs", null, "Affinity Policies *", "Anti-Affinity Policies *", "NGT Policies", null, "Alerts", "Events", "Tasks", null, "Metrics"]
         },
         {
-          "type": "PAGE", "title": "Storage",
-          "sections": ["Summary", "Storage Containers#", "Volume Groups", "Storage Pool", null,"Alerts", "Events", "Metrics"]
+          "type": "PAGE", "title": "Storage Containers",
+          "sections": ["Summary", "List#", null, "Storage Policies", null,"Alerts", "Events", "Tasks", null, "Metrics"]
+        },
+        {
+          "type": "PAGE", "title": "Volumes",
+          "sections": ["Summary", "List#", null, "Alerts", "Events", "Tasks", null, "Metrics"]
         },
         {
           "type": "PAGE", "title": "Networks",
-          "sections": ["Summary#", "Subnets", "VPCs", null, "VPNs", "Floating IPs", null, "Alerts", "Events", "Metrics", null, "Virtual Switch", "Advance Configuration"]
+          "sections": ["Summary", "Subnets#", "VPCs", "Floating IPs", null, "VPN Gateways", "VPN Connections",null, "Alerts", "Events", "Tasks", null, "Metrics"]
         },
         {
           "type": "PAGE", "title": "Images",
-          "sections": ["Private Images", "Public Images", null, "Image Placement Policies"]
+          "sections": ["Private Images", "Public Images", null, "Image Placement Policies", "Bandwidth Throttling Policies"]
         }
       ]
     },
     {
       "type": "PAGE",
       "title": "Security",
-      "sections": ["Summary", "Security Planning", "Security Policies#", null, "Service Chains", "Service Groups", "Subnet Groups"]
+      "sections": ["Summary", "Security Planning", "Security Policies#", null, "Service Chains", "Service Groups", "Address Groups"]
     },
     {
       "type": "PAGE",
-      "title": "Data Protection",
-      "sections": ["Summary#", "Protection Policies", "Recovery Plans", "Recoverable Entities"]
+      "title": "Data Protection & Recovery",
+      "sections": ["Summary#", "Protection Policies", "Recovery Plans", "Recovery Points", null, "Constitency Groups", "Container Maps",  "Witness"]
     },
     {
       "type": "PARENT",
@@ -46,13 +50,16 @@
           "type": "PAGE", "title": "CALM"
         },
         {
+          "type": "PAGE", "title": "Foundations"
+        },
+        {
+          "type": "PAGE", "title": "Files"
+        },
+        {
           "type": "PAGE", "title": "Karbon"
         },
         {
-          "type": "PAGE", "title": "Buckets"
-        },
-        {
-          "type": "PAGE", "title": "Foundations"
+          "type": "PAGE", "title": "Objects"
         }
       ]
     },
@@ -85,11 +92,15 @@
       "type": "PARENT",
       "title": "Operations",
       "nav": [
-        {
-            "type": "PAGE", "title": "Activity", "sections": ["Alert#", "Events", "Audits", "Tasks"]
-        },
+        
         {
           "type": "PAGE", "title": "Analysis"
+        },
+        {
+          "type": "PAGE", "title": "App Discovery"
+        },
+        {
+          "type": "PAGE", "title": "Integrations", "sections": ["Summary#", "Blue Medora", "Epoch Data Collectors"]
         },
         {
           "type": "PAGE", "title": "Planning", "sections": ["Scenarios#", "Capacity Planning"]
@@ -104,7 +115,7 @@
           "type": "PAGE", "title": "Operation Policies", "sections": ["Anomaly Exclusion#", "Efficiency Exclusion"]
         },
         {
-          "type": "PAGE", "title": "Monitoring", "sections": ["Summary#", "Blue Medora", "Epoch Data Collectors"]
+          "type": "PAGE", "title": "Visual Monitoring" 
         }
       ]
     },
@@ -112,6 +123,9 @@
       "type": "PARENT",
       "title": "Management",
       "nav": [
+        {
+          "type": "PAGE", "title": "Activity", "sections": ["Alert#", "Events", "Audits", "Tasks"]
+        },
         {
           "type": "PAGE", "title": "Categories", "sections": ["List#"]
         },
@@ -124,7 +138,7 @@
       "type": "PARENT",
       "title": "Administration",
       "nav": [
-        {"type": "PAGE", "title": "User and Roles", "sections": ["Users#", "Roles", "Projects (DEP)", "Cost Policies"]},
+        {"type": "PAGE", "title": "User and Roles", "sections": ["Users#", "Roles", "Projects (DEP)"]},
         {"type": "PAGE", "title": "Life Cycle Management", "sections": ["Inventory", "Software Updates"]}
       ]
     },
