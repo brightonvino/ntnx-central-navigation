@@ -72,7 +72,7 @@
       "nav": [
         {
           "type": "PAGE", "title": "Clusters",
-          "sections": ["Summary", "List#", null,"Cluster Profile", null, "Alerts", "Events", "Metrics"]
+          "sections": ["Summary", "List#", null, "Alerts", "Events", "Metrics", null, "Storage Breakdown"]
         },
         {
           "type": "PAGE", "title": "Hosts",
