@@ -38,25 +38,9 @@
       "sections": ["Summary", "Security Planning", "Security Policies#", null, "Service Chains", "Service Groups", "Address Groups"]
     },
     {
-      "type": "PARENT",
+      "type": "PAGE",
       "title": "Data Protection & Recovery",
-      "nav": [
-        {
-          "type": "PAGE", "title": "Dashboard"
-        },
-        {
-          "type": "PAGE", "title": "Protection Policies",
-          "sections": ["List#", null, "Consistency Groups"]
-        },
-        {
-          "type": "PAGE", "title": "Recovery Plans",
-          "sections": ["List#", null, "Container Maps", "Witness"]
-        },
-        {
-          "type": "PAGE", "title": "Recovery Points",
-          "sections": ["List#"]
-        }
-      ]
+      "sections": ["Summary#", "Protection Policies", "Recovery Plans", "Recovery Points", null, "Consistency Groups", "Container Maps",  "Witness"]
     },
     {
       "type": "PARENT",
