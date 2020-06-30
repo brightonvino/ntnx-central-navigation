@@ -12,19 +12,19 @@
       "nav": [
         {
           "type": "PAGE", "title": "VMs",
-          "sections": ["Summary", "List#", "Templates", "OVAs", null, "Affinity Policies *", "Anti-Affinity Policies *", "NGT Policies", null, "Alerts", "Events", "Tasks", null, "Metrics"]
+          "sections": ["Summary", "List#", "Templates", "OVAs", null, "Affinity Policies *", "Anti-Affinity Policies *", "NGT Policies", null, "Alerts", "Events", null, "Metrics"]
         },
         {
           "type": "PAGE", "title": "Storage Containers",
-          "sections": ["Summary", "List#", null, "Storage Policies", null,"Alerts", "Events", "Tasks", null, "Metrics"]
+          "sections": ["Summary", "List#", null, "Storage Policies", null,"Alerts", "Events", null, "Metrics"]
         },
         {
           "type": "PAGE", "title": "Volumes",
-          "sections": ["Summary", "List#", null, "Alerts", "Events", "Tasks", null, "Metrics"]
+          "sections": ["Summary", "List#", null, "Alerts", "Events", null, "Metrics"]
         },
         {
           "type": "PAGE", "title": "Networks",
-          "sections": ["Summary", "Subnets#", "VPCs", "Floating IPs", null, "VPN Gateways", "VPN Connections",null, "Alerts", "Events", "Tasks", null, "Metrics"]
+          "sections": ["Summary", "Subnets#", "VPCs", "Floating IPs", null, "VPN Gateways", "VPN Connections",null, "Alerts", "Events", null, "Metrics"]
         },
         {
           "type": "PAGE", "title": "Images",
