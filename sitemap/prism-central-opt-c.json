@@ -35,7 +35,7 @@
     {
       "type": "PAGE",
       "title": "Security",
-      "sections": ["Summary", "Security Planning", "Security Policies#", null, "Service Chains", "Service Groups", "Address Groups"]
+      "sections": ["Summary", "Security Policies#", null, "Service Groups", "Address Groups", "Service Chains"]
     },
     {
       "type": "PAGE",
