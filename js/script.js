@@ -5,15 +5,16 @@ const E_STATE = {
 }
 
 const E_PRODUCT = {
-  PRISM_CENTRAL_OPT_A: { "title": "Prism Opt-A", "file": "prism-central-opt-a" },
-  PRISM_CENTRAL_OPT_B: { "title": "Prism Opt-B", "file": "prism-central-opt-b" }
+  PRISM_CENTRAL_OPT_A: { "title": "Prism A", "file": "prism-central-opt-a" },
+  PRISM_CENTRAL_OPT_B: { "title": "Prism B", "file": "prism-central-opt-b" },
+  PRISM_CENTRAL_OPT_C: { "title": "Prism Bryan", "file": "prism-central-opt-c" }
 }
 
 
 let state = E_STATE.FLYOUT;
 
 $(function () {
-  product = E_PRODUCT.PRISM_CENTRAL_OPT_A;
+  product = E_PRODUCT.PRISM_CENTRAL_OPT_C;
   setProduct(product);
 
   $('.switcher').click(function () {
