@@ -4,6 +4,11 @@
     "title": "Dashboard"
   },
   {
+    "type": "PARENT",
+    "title": "Bookmarks",
+    "nav": []
+  },
+  {
     "type": "SEPARATOR"
   },
   {
@@ -46,13 +51,7 @@
           "Image Placement Policies",
           "Bandwidth Throttling Policies"
         ]
-      }
-    ]
-  },
-  {
-    "type": "PARENT",
-    "title": "Storage",
-    "nav": [
+      },
       {
         "type": "PAGE",
         "title": "Storage Containers",
@@ -91,12 +90,25 @@
     "nav": [
       {
         "type": "PAGE",
-        "title": "VPCs and Subnets",
+        "title": "VPCs",
         "sections": [
           "Summary",
-          "Subnets#",
-          "VPCs",
+          "List#",
           "Floating IPs",
+          null,
+          "Alerts",
+          "Events",
+          "Tasks",
+          null,
+          "Metrics"
+        ]
+      },
+      {
+        "type": "PAGE",
+        "title": "Subnets",
+        "sections": [
+          "Summary",
+          "List",
           null,
           "Alerts",
           "Events",
@@ -122,10 +134,9 @@
       },
       {
         "type": "PAGE",
-        "title": "Security",
+        "title": "Security Policies",
         "sections": [
-          "Summary",
-          "Security Policies#",
+          "List#",
           null,
           "Service Groups",
           "Address Groups",
@@ -297,7 +308,7 @@
       {
         "type": "PAGE",
         "title": "User and Roles",
-        "sections": ["Users#", "Roles", "Projects (DEP)"]
+        "sections": ["Users#", "Roles", "Projects"]
       },
       {
         "type": "PAGE",
