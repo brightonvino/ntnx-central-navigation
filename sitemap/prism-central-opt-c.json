@@ -59,7 +59,7 @@
           "Summary",
           "List#",
           null,
-          "Storage Policies",
+          "Storage Policies *",
           null,
           "Alerts",
           "Events",
@@ -92,44 +92,43 @@
         "type": "PAGE",
         "title": "Subnets",
         "sections": [
-          "Summary",
           "List",
           null,
-          "Alerts",
-          "Events",
-          "Tasks",
+          "Alerts *",
+          "Events *",
+          "Tasks *",
           null,
-          "Metrics"
+          "Metrics *"
         ]
       },
       {
         "type": "PAGE",
         "title": "VPCs",
         "sections": [
-          "Summary",
+          "Summary *",
           "List#",
           "Floating IPs",
           null,
-          "Alerts",
-          "Events",
-          "Tasks",
+          "Alerts *",
+          "Events *",
+          "Tasks *",
           null,
-          "Metrics"
+          "Metrics *"
         ]
       },
       {
         "type": "PAGE",
         "title": "VPNs",
         "sections": [
-          "Summary",
+          "Summary *",
           "VPN Gateways",
           "VPN Connections",
           null,
-          "Alerts",
-          "Events",
-          "Tasks",
+          "Alerts *",
+          "Events *",
+          "Tasks *",
           null,
-          "Metrics"
+          "Metrics *"
         ]
       },
       {
