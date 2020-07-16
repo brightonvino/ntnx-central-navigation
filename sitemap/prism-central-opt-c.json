@@ -90,11 +90,10 @@
     "nav": [
       {
         "type": "PAGE",
-        "title": "VPCs",
+        "title": "Subnets",
         "sections": [
           "Summary",
-          "List#",
-          "Floating IPs",
+          "List",
           null,
           "Alerts",
           "Events",
@@ -105,10 +104,11 @@
       },
       {
         "type": "PAGE",
-        "title": "Subnets",
+        "title": "VPCs",
         "sections": [
           "Summary",
-          "List",
+          "List#",
+          "Floating IPs",
           null,
           "Alerts",
           "Events",
